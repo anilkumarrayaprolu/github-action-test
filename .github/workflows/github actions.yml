@@ -9,9 +9,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v1
       - name: pwd
-        run: |
-         pwd
-         ls
+        run: pwd
       - name: simple js actions
         id: anil
         uses: actions/hello-world-javascript-action@v1
