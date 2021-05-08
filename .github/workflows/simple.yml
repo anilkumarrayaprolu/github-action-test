@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: echo a string
-        run: eho "hello world"
+        run: echo "first project"
       - name: multiline command
         run: |
           node -v
