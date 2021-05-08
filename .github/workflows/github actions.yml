@@ -6,6 +6,10 @@ jobs:
   github-actions:
     runs-on: ubuntu-latest
     steps:
+      - name: pwd
+        run: |
+         pwd
+         ls
       - name: simple js actions
         id: anil
         uses: actions/hello-world-javascript-action@v1
