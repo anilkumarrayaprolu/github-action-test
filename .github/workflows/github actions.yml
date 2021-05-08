@@ -12,6 +12,10 @@ jobs:
          ls
       - name: checkout
         uses: actions/checkout@v1
+      - name: pwd
+        run: |
+         pwd
+         ls
       - name: simple js actions
         id: anil
         uses: actions/hello-world-javascript-action@v1
