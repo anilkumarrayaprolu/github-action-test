@@ -1,4 +1,4 @@
-name: shell command to exectute
+name: First-workflow script
 
 on: [push]
 
